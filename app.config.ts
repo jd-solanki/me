@@ -1,7 +1,7 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: 'JD Solanki',
+    description: 'My personal sites',
     image: {
       src: '/social-card-preview.png',
       alt: 'An image showcasing my project.',
@@ -26,13 +26,16 @@ export default defineAppConfig({
       message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
-      twitter: 'nuxtlabs',
-      instagram: 'atinuxt',
+      twitter: 'me_jd_solanki',
+      instagram: '',
+
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
         href: 'https://www.linkedin.com/company/nuxtlabs'
-      }
+      },
+
+      github: 'jd-solanki'
     },
     form: {
       successMessage: 'Message sent. Thank you!'
