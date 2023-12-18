@@ -8,5 +8,15 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
     '@nuxt/devtools'
-  ]
+  ],
+  app: {
+    head: {
+      meta: [
+        {
+          'http-equiv': "refresh",
+          content: '0; url=https://jd-solanki.github.io/'
+        }
+      ]
+    }
+  }
 })
