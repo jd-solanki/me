@@ -1,0 +1,32 @@
+.logo {
+    img {
+        width: 120px;
+    }
+}
+
+.card-grid {
+    padding-bottom: 0rem !important;
+
+    .card {
+        padding: 1rem !important;
+
+        p:first-of-type,
+        img {
+            margin: 0;
+            margin-bottom: 1rem;
+        }
+
+        > p:first-of-type {
+            font-size: 2rem;
+        }
+
+        // img {
+        //     border-top-left-radius: var(--radii-xl);
+        //     border-top-right-radius: var(--radii-xl);
+        // }
+
+        // >div {
+        //     padding: 1rem;
+        // }
+    }
+}
